@@ -5,7 +5,7 @@ import Footer from '../src/components/Footer'
 import QuizBackground from '../src/components/QuizBackground'
 import GitHubCorner from '../src/components/GitHubCorner'
 
-const Title = styled.h1 `
+const Title = styled.h1 ` 
   font-size: 50px;
   color: ${ ({ theme }) => theme.colors.primary };
 `
