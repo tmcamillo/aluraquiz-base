@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
-import QuizContainer from '../src/components/QuizContainer';
-import Button from '../src/components/Button';
-import QuizLogo from '../src/components/QuizLogo';
-import AlternativeForm from '../src/components/AlternativeForm';
+import db from '../../db.json';
+import Widget from '../../src/components/Widget';
+import QuizBackground from '../../src/components/QuizBackground';
+import QuizContainer from '../../src/components/QuizContainer';
+import Button from '../../src/components/Button';
+import QuizLogo from '../../src/components/QuizLogo';
+import AlternativeForm from '../../src/components/AlternativeForm';
 
 function ResultWidget({ results }) {
   return (
@@ -42,7 +42,6 @@ function ResultWidget({ results }) {
     </Widget>
   );
 }
-
 function QuestionWidget({
   question, totalQuestions, questionIndex, onSubmit, addResult,
 }) {
@@ -120,7 +119,6 @@ function QuestionWidget({
     </Widget>
   );
 }
-
 function LoadingWidget() {
   return (
     <Widget>
